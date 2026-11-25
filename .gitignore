@@ -1,0 +1,46 @@
+# sbt / Scala build output (at any depth)
+target/
+project/project/
+*.class
+*.jar
+
+# Local editor and language-server settings
+.idea/
+.bsp/
+.metals/
+.bloop/
+.vscode/
+*.iml
+
+# Local environment files and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.jks
+.aws/
+
+# Spark runtime output
+spark-warehouse/
+metastore_db/
+derby.log
+spark-events/
+checkpoints/
+artifacts/
+*.log
+
+# Full datasets and generated analysis output; download data separately
+data/
+datasets/
+Online Retail*.xlsx
+Online Retail*.csv
+online_retail*.xlsx
+online_retail*.csv
+output/
+outputs/
+
+# OS metadata
+.DS_Store
+Thumbs.db
